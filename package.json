@@ -4,6 +4,7 @@
 	"description": "Recursive Promise all",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
+	"browser": "./dist/index.mjs",
 	"files": [
 		"dist"
 	],
