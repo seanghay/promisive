@@ -1,6 +1,6 @@
 # Promisive
 
-Recursive `Promise.all`.
+Recursive `Promise.all` that works on `object` and `array`
 
 [![test](https://github.com/seanghay/promisive/actions/workflows/test.yml/badge.svg)](https://github.com/seanghay/promisive/actions/workflows/test.yml)
 [![npm-publish](https://github.com/seanghay/promisive/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/seanghay/promisive/actions/workflows/npm-publish.yml)
