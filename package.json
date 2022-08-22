@@ -5,8 +5,10 @@
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
 	"browser": "./dist/index.mjs",
+	"types": "./index.d.ts",
 	"files": [
-		"dist"
+		"dist",
+		"index.d.ts"
 	],
 	"keywords": [
 		"promise",
