@@ -5,10 +5,9 @@
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
 	"browser": "./dist/index.mjs",
-	"types": "./index.d.ts",
+	"types": "./dist/index.d.ts",
 	"files": [
-		"dist",
-		"index.d.ts"
+		"dist"
 	],
 	"keywords": [
 		"promise",
@@ -39,6 +38,7 @@
 		"cross-env": "^7.0.3",
 		"flat": "^5.0.2",
 		"rollup": "^2.78.1",
+		"rollup-plugin-copy": "^3.4.0",
 		"vitest": "^0.22.1"
 	}
 }
