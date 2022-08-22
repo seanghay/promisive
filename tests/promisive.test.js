@@ -10,25 +10,7 @@ describe('promisive', () => {
   })
 
   it('should resolve array', async () => {
-
-    console.log(
-      JSON.stringify(
-      await promisive({
-        a: {
-          b: [
-            Promise.resolve({
-              a: [{ a: Promise.resolve(1) }],
-            }),
-            Promise.resolve({
-              a: [{ a: Promise.resolve(2) }],
-            }),
-          ],
-        },
-      }),
-      0,
-      2
-    ))
-
+    
     const result = await promisive([
       { a: Promise.resolve(1) },
       { a: { b: [Promise.resolve(1)] } },
