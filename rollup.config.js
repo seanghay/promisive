@@ -18,7 +18,7 @@ export default defineConfig({
     commonjs(),
     copy({
       targets: [
-        { src: "./index.d.ts", dest: "./dist" }
+        { src: "./src/index.d.ts", dest: "./dist" }
       ]
     }),
     dev && run()
