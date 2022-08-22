@@ -1,0 +1,41 @@
+{
+	"name": "promisive",
+	"version": "0.0.0",
+	"description": "Recursive Promise all",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"promise",
+		"promise-all",
+		"async"
+	],
+	"scripts": {
+		"build": "cross-env NODE_ENV=production rollup -c",
+		"build:dev": "rollup --config --watch",
+		"test": "vitest --run",
+		"test:dev": "vitest"
+	},
+	"author": {
+		"name": "Seanghay Yath",
+		"email": "seanghay.dev@gmail.com",
+		"url": "https://github.com/seanghay"
+	},
+	"repository": "seanghay/promisive",
+	"license": "MIT",
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^22.0.2",
+		"@rollup/plugin-node-resolve": "^13.3.0",
+		"@types/node": "^16.11.52",
+		"flat": "^5.0.2",
+		"np": "^7.6.2",
+		"rollup": "^2.78.1",
+		"vitest": "^0.22.1"
+	},
+	"dependencies": {
+		"@rollup/plugin-run": "^2.1.0",
+		"cross-env": "^7.0.3"
+	}
+}
