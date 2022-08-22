@@ -1,6 +1,6 @@
 # Promisive
 
-Recursive `Promise`.
+Recursive `Promise.all`.
 
 [![test](https://github.com/seanghay/promisive/actions/workflows/test.yml/badge.svg)](https://github.com/seanghay/promisive/actions/workflows/test.yml)
 [![npm-publish](https://github.com/seanghay/promisive/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/seanghay/promisive/actions/workflows/npm-publish.yml)
