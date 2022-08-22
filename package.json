@@ -1,6 +1,6 @@
 {
 	"name": "promisive",
-	"version": "0.0.3",
+	"version": "1.0.0",
 	"description": "Recursive Promise all",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
