@@ -16,7 +16,8 @@
 		"build": "cross-env NODE_ENV=production rollup -c",
 		"build:dev": "rollup --config --watch",
 		"test": "vitest --run",
-		"test:dev": "vitest"
+		"test:dev": "vitest",
+		"release": "bumpp"
 	},
 	"author": {
 		"name": "Seanghay Yath",
@@ -29,8 +30,8 @@
 		"@rollup/plugin-commonjs": "^22.0.2",
 		"@rollup/plugin-node-resolve": "^13.3.0",
 		"@types/node": "^16.11.52",
+		"bumpp": "^8.2.1",
 		"flat": "^5.0.2",
-		"np": "^7.6.2",
 		"rollup": "^2.78.1",
 		"vitest": "^0.22.1"
 	},
