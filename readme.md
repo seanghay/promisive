@@ -6,19 +6,19 @@ Recursive `Promise`.
 import { promisive } from "promisive";
 
 await promisive({
-	a: {
-		b: [
-			Promise.resolve({
-				a: [{ a: Promise.resolve(1) }],
-			}),
-			Promise.resolve({
-				a: [{ a: Promise.resolve(2) }],
-			}),
-		],
-	},
+  a: {
+    b: [
+      Promise.resolve({
+        a: [{ a: Promise.resolve(1) }],
+      }),
+      Promise.resolve({
+        a: [{ a: Promise.resolve(2) }],
+      }),
+    ],
+  },
 });
 
-// will resolve to
+// this will resolve to
 
 {
   "a": {
